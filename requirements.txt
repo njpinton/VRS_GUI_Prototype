@@ -1,0 +1,10 @@
+tkinter
+sounddevice
+configuration
+numpy
+tensorflow
+numpy
+librosa
+matplotlib
+sklearn
+soundfile
