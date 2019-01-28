@@ -1,0 +1,5 @@
+VRS GUI Prototype
+
+Functions:
+1. Enroll
+2. Verify

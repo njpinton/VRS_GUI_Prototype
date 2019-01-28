@@ -231,14 +231,14 @@ def normalize(x):
 #     return score
 
 def get_score(speaker_feat,speaker_model_path):
-	""" compare the extracted feature of the speaker to the stored feature array of the speaker
-	returns: score/similarity of the two features 
-	"""
-	model = np.load(speaker_model_path)
-	# print('model: ', model[[speaker]])
-	score = cosine_similarity(speaker_feat,model)
-	# print('model shape: ', model.shape)
-	return score
+    """ compare the extracted feature of the speaker to the stored feature array of the speaker
+    returns: score/similarity of the two features 
+    """
+    model = np.load(speaker_model_path)
+    # print('model: ', model[[speaker]])
+    score = cosine_similarity(speaker_feat,model)
+    # print('model shape: ', model.shape)
+    return score
 
 def write_npy(path,rec,enroll=True):
     if enroll == True:
