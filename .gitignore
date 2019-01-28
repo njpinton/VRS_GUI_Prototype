@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+enroll_npy/
+enroll_voice/
+MODEL/
+verify_voice/
+enroll.csv
+verification.csv
+nm-logo-transparent.ico
+setup.py
